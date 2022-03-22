@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:ems="10"
+        android:hint="A"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/b"
+        android:hint="B"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_x="112dp"
+        android:layout_y="0dp" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/c"
+        android:hint="C"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="227dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:text="Limpar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/limpar"
+        android:layout_x="6dp"
+        android:layout_y="51dp"
+        android:layout_below="@+id/c"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcular"
+        android:layout_x="162dp"
+        android:layout_y="52dp"
+        android:layout_below="@+id/a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/resultado2"
+        android:layout_width="291dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/resultado3"
+        android:layout_below="@+id/resultado"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_x="-2dp"
+        android:layout_y="158dp"
+        android:text="TextView" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="144dp"
+        android:layout_height="34dp"
+        android:id="@+id/saida"
+        android:layout_x="75dp"
+        android:layout_y="115dp"
+        android:layout_below="@+id/limpar"
+        android:layout_toLeftOf="@+id/c"
+        android:layout_toStartOf="@+id/c" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="300dp"
+        android:layout_height="99dp"
+        android:layout_below="@+id/limpar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="20dp"
+        android:layout_x="0dp"
+        android:layout_y="258dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/resultado3"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_x="22dp"
+        android:layout_y="350dp"
+        android:text="TextView" />
+
+</RelativeLayout>
