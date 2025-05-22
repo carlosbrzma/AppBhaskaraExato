@@ -1,0 +1,1 @@
+Aplicativo feito em Android que executa a equação do segundo grau. Você fornece os valores de A, B e C, e ele faz todo o cálculo e mostra o desenvolvimento do cálculo até o fim da equação, dando resultado exato.![APP_Foto](https://github.com/user-attachments/assets/70c7bb22-01f5-4fe2-9778-c2e6796f907b)
